@@ -54,7 +54,10 @@
 
 
     /* Companies Section */
+    .companies{
+        margin: 10% auto;
+    }
     .companies-list{
-        gap: 50px;
+        gap: 10px;
     }
 }
