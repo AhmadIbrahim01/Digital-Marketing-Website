@@ -133,3 +133,50 @@ header{
     height: 100px;
     object-fit: contain;
 }
+
+
+/* Expertise Section */
+
+.expertise{
+    justify-content: space-around;
+    margin: 5% auto;
+}
+
+.expertise-container{
+    width: 40%;
+}
+.expertise-container > h1{
+    font-size: 64px;
+}
+.expertise-container > p{
+    margin: 5% auto;
+    color: var(--text-color);
+}
+.expertise-container > img{
+    width: 400px;
+    height: 400px;
+}
+
+.expertise-container > .card{
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% auto;
+    text-align: justify;
+}
+.expertise-container > .card> .sub-card > p{
+    margin: 2% auto;
+    color: var(--text-color);
+}
+.expertise-container > .card> .sub-card > h4{
+    font-size: 20px;
+
+}
+.expertise-container > .card > img{
+    margin-right: 30px;
+}
+
+.social-media{
+    width: 100% !important;
+    height: 100% !important;
+}
+
