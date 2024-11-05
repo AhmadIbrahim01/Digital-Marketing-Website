@@ -116,10 +116,10 @@ header{
 
 
 /* Companies section  */
-.companies{
+.companies, .our-work{
     margin: 10% auto;
 }
-.companies > h1{
+.companies > h1, .our-work > h1{
     text-align: center;
     font-size: 40px;
 }
@@ -203,7 +203,24 @@ header{
     font-size: 20px;
     color: var(--text-color);
     font-weight: bold;
-
-
 }
 
+/* Our Work Section */
+.our-work{
+    margin: 10% auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-work > p{
+    margin: 1% auto 5%;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.our-work-card{
+    width: 300px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+} 
