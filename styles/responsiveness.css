@@ -91,4 +91,10 @@
     }
 
 
+    /* Our Work Section */
+    .work{
+        align-items: center;
+        justify-content: center;
+    }
+
 }
