@@ -94,10 +94,11 @@ header{
 .container input{
     border-radius: 100px;
     padding: 1%;
+    height: 50px;
 }
 
 .container input:first-child{
-    width: 35%;
+    width: 50%;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
