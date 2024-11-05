@@ -1,0 +1,41 @@
+/* Responsiveness  */
+@media (max-width: 737px) {
+    /* Responsiveness for the navbar  */
+    .nav-links {
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+    }
+    .nav-links.active {
+        transform: translateX(0);
+    }
+    .nav-links li{
+        margin: 1%;
+    }
+
+    .active{
+        z-index: 3;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+    .burger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-bar{
+        border-bottom: none;
+    }
+    
+}
