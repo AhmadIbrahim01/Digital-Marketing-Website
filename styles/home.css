@@ -119,7 +119,7 @@ header{
 .companies{
     margin: 10% auto;
 }
-.companies > h1, .our-work > h1, .partner-us > h1{
+.companies > h1, .our-work > h1, .partner-us > h1, .methodology > h1{
     text-align: center;
     font-size: 40px;
 }
