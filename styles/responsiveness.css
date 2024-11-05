@@ -40,6 +40,16 @@
     }
 
     /* Header */
+    .img-container, .container{
+        width: 100%;
+        text-align: center;
+    }
+    .container > h1{
+        font-size: 50px;
+    }
+    .container > p{
+        font-size: 15px;
+    }
 
 
 
