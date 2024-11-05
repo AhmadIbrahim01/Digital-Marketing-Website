@@ -116,7 +116,7 @@ header{
 
 
 /* Companies section  */
-.companies, .our-work{
+.companies{
     margin: 10% auto;
 }
 .companies > h1, .our-work > h1, .partner-us > h1{
@@ -207,7 +207,7 @@ header{
 
 /* Our Work Section */
 .our-work{
-    margin: 10% auto;
+    margin: 10% auto 20%;
     align-items: center;
     justify-content: space-between;
 }
@@ -229,7 +229,7 @@ header{
 /* Partner With Us Section */
 
 .partner-us{
-    margin: 5% auto;
+    margin: auto auto 5%;
 }
 
 .partner-cards{
@@ -261,4 +261,39 @@ header{
 
 .partner-card > p{
     color: var(--text-color);
+}
+
+
+/* Elevate Section */
+.elevate{
+    height: 80vh;
+}
+
+
+.elevate-container{
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--third-color);
+    width: 80%;
+    border-radius: 10px;
+    height: 50%;
+}
+
+.elevate-container > h1{
+    font-size: 64px;
+    color: white;
+}
+.book-call-container{
+    height: 100%;
+}
+.book-call-container > p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+.book-call-container > button{
+    margin-top: 10px;
+    font-size: 24px;
+    border-radius: 64px;
+    padding: 16px 48px;
 }
