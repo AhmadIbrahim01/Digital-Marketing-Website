@@ -10,6 +10,7 @@ burger.addEventListener("click", () => {
 });
 
 
+// Gsap Animations
 gsap.from("#companies", {
   y: -50,
   opacity: 0,
@@ -82,7 +83,7 @@ gsap.from("#methodology", {
   duration: 1,
   stagger: 0.2,
   scrollTrigger: {
-    trigger: "#elevate",
+    trigger: "#methodology",
     start: "top 80%",
     toggleActions: "play none none none"
   }
