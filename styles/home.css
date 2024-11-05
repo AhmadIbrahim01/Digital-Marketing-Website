@@ -325,3 +325,45 @@ header{
 .methodology-card > p{
     color: var(--text-color);
 }
+
+/* Footer */
+.footer{
+    background-color: var(--third-color);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 25vh;
+}
+
+.footer-1,.footer-2,.footer-3{
+    width: 30%;
+}
+
+.footer-1 > h2{
+    font-weight: bold;
+}
+.footer-2{
+    justify-content: center;
+    align-items: center;
+}
+
+.reach-us-div{
+    width: 70%;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.footer-2-ul,.footer-3-ul{
+    gap: 10px;
+}
+.footer-3{
+    justify-content: center;
+    align-items: center;
+}
+.footer-3-ul > li > a{
+    color: white;
+}
+
+.icons{
+    width: 20px;
+}
