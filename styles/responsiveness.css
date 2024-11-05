@@ -60,4 +60,24 @@
     .companies-list{
         gap: 10px;
     }
+
+
+    /* Expertise Section */
+
+    .expertise{
+        margin: 0;
+    }
+
+    .expertise-container, .commitments-container{
+        width: 80%;
+        text-align: center;
+    }
+    .expertise-container > h1, .commitments-container > h1{
+        font-size: 40px;
+    }
+    .expertise-container > img{
+        width: 300px !important;
+        height: 300px !important;
+    }
+
 }
