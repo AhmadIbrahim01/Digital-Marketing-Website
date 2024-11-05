@@ -97,4 +97,24 @@
         justify-content: center;
     }
 
+    /* Elevate Section */
+    .elevate-container{
+        height: 50%;
+    }
+
+    .elevate-container > h1{
+        font-size: 40px;
+    }
+    .book-call-container{
+        height: 40%;
+    }
+    .book-call-container > p{
+        font-size: 15px;
+    }
+    .book-call-container > button{
+        width: 200px;
+        font-size: 15px;
+    }
+
+
 }
