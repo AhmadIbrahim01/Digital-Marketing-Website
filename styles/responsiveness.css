@@ -2,6 +2,7 @@
 @media (max-width: 737px) {
     /* Responsiveness for the navbar  */
     .nav-links {
+        display: none !important;
         flex-direction: column;
         position: absolute;
         top: 80px;
@@ -26,7 +27,7 @@
     }
 
     .nav-links.active {
-        display: flex;
+        display: flex !important;
     }
     .burger {
         display: flex;
