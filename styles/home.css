@@ -67,3 +67,48 @@
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
+
+
+/* Header */
+header{
+    margin-top: 3%;
+    justify-content: center;
+}
+.img-container, .container{
+    width: 40%;
+}
+.container > h1{
+    font-size: 100px;
+}
+.container > p{
+    margin: 3% auto;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.form-container{
+    margin-top: 5%;
+}
+
+.container input{
+    border-radius: 100px;
+    padding: 1%;
+}
+
+.container input:first-child{
+    width: 35%;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.container input:last-child{
+    width: 15%;
+    background-color: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid var(--secondary-color);
+}
+
+.img-container > img{
+    width: 100%;
+}
