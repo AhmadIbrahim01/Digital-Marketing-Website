@@ -227,11 +227,6 @@ header{
 
 
 /* Partner With Us Section */
-
-.partner-us{
-    margin: auto auto 5%;
-}
-
 .partner-cards{
     width: 100%;
     text-align: center;
@@ -266,7 +261,7 @@ header{
 
 /* Elevate Section */
 .elevate{
-    height: 80vh;
+    height: 100vh;
 }
 
 
@@ -296,4 +291,37 @@ header{
     font-size: 24px;
     border-radius: 64px;
     padding: 16px 48px;
+}
+
+
+/* Methodology With Us Section */
+.methodology-cards{
+    width: 100%;
+    text-align: center;
+}
+.methodology-card{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 30px;
+
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+
+    transition: 1s;
+}
+
+.methodology-card:hover{
+    transform: scale(1.1);
+}
+
+.methodology-card > h1{
+    margin: 10px;
+    color: var(--secondary-color);
+}
+
+.methodology-card > p{
+    color: var(--text-color);
 }
